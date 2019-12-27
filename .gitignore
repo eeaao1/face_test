@@ -1,0 +1,12 @@
+*/target/*
+*.bak
+*.jar
+*.class
+.idea
+*.iml
+.project
+.settings
+.classpath
+*.rar
+*.iml
+uiDesigner.xml
