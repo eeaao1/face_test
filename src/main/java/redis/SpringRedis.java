@@ -12,6 +12,5 @@ package redis;
 public class SpringRedis {
     public static void main(String[] args) {
 
-        ValueOperations<String,User> operations = redisTemplate.opsForValue();
     }
 }

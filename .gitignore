@@ -10,3 +10,4 @@
 *.rar
 *.iml
 uiDesigner.xml
+target/classes/*
