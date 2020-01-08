@@ -5,16 +5,9 @@ import org.springframework.util.StringUtils;
 import java.io.Serializable;
 
 /*********************************************************
- * 文件名称：A
- * 系统名称：交易银行系统V1.0
- * 模块名称：com.hundsun.tbsp.mbookbiz.service.entity.dto
- * 功能说明：自定义代码dto
- * 开发人员：kongli26489
- * 开发时间：2019/12/17 10:14
- * 修改记录：程序版本	修改日期	修改人员	修改单号	修改说明
  *********************************************************/
 public class A implements Serializable {
-    private static final long serialVersionUID = -9004464279963160676L;
+    private static final long serialVersionUID = -900446427996360676L;
     /**
      * 账簿编号
      */
