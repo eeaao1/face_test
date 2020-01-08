@@ -1,0 +1,44 @@
+{
+  "headUserNo": "838d19d901d6d4d2e050a8c0bb247b4f",
+  "headTrDate": "20200106",
+  "headReqDate": "20200106",
+  "headReqTime": "105959",
+  "headReqSerialNo": "tjGWnk3NheXSHWJ6XGYk8Q",
+  "headOrigDate": "20200106",
+  "headOrigTime": "105959",
+  "headOrigSerialNo": "tjGWnk3NheXSHWJ6XGYk8Q",
+  "language": "1",
+  "custNo": "0001000kongliHA",
+  "acctNo": "MBOOKCLEAR001",
+  "asacNo": "00000001",
+  "defineCode": [
+    "c"
+  ],
+  "summary": "",
+  "dtos": [
+    {
+      "asacNo": "00000001",
+      "defineCode": "c",
+      "summary": ""
+    }
+  ],
+  "items": [
+    {
+      "value": "c"
+    }
+  ],
+  "custName": "重庆银行",
+  "asacName": "我的账簿啊",
+  "setFlag": "1",
+  "currencyDesc": "人民币",
+  "acctNo_in": "MBOOKCLEAR001",
+  "acctName": "恒生电子",
+  "currency": "01",
+  "asacNo_in": "00000001",
+  "mirrorContext": "{\"data\":{\"custNo\":\"0001000kongliHA\",\"acctNo\":\"MBOOKCLEAR001\",\"asacNo\":\"00000001\",\"defineCode\":[\"c\"],\"summary\":\"\",\"dtos\":[{\"asacNo\":\"00000001\",\"defineCode\":\"c\",\"summary\":\"\"}],\"items\":[{\"value\":\"c\"}],\"custName\":\"重庆银行\",\"asacName\":\"我的账簿啊\",\"setFlag\":\"1\",\"currencyDesc\":\"人民币\",\"acctNo_in\":\"MBOOKCLEAR001\",\"acctName\":\"恒生电子\",\"currency\":\"01\",\"asacNo_in\":\"00000001\",\"mirrorContext\":\"\",\"asacNos\":[\"00000001\"]},\"editType\":\"add\",\"modalPath\":\"productManage/views/book/bookDiyCodeQuery_info\",\"modalWidth\":800,\"modalHeight\":410}",
+  "asacNos": [
+    "00000001"
+  ],
+  "headMenuCode": "02010060000001",
+  "headTrCode": "03040106C0506"
+}
