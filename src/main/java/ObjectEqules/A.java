@@ -5,7 +5,7 @@ import org.springframework.util.StringUtils;
 import java.io.Serializable;
 
 /*********************************************************
- * 文件名称：SummaryCodeDTO
+ * 文件名称：A
  * 系统名称：交易银行系统V1.0
  * 模块名称：com.hundsun.tbsp.mbookbiz.service.entity.dto
  * 功能说明：自定义代码dto
@@ -13,67 +13,67 @@ import java.io.Serializable;
  * 开发时间：2019/12/17 10:14
  * 修改记录：程序版本	修改日期	修改人员	修改单号	修改说明
  *********************************************************/
-public class SummaryCodeDTO implements Serializable {
+public class A implements Serializable {
     private static final long serialVersionUID = -9004464279963160676L;
     /**
      * 账簿编号
      */
-    private String asacNo;
+    private String a;
 
     /**
      * 自定义代码
      */
-    private String defineCode;
+    private String b;
 
     /**
      * 摘要
      */
-    private String summary;
+    private String c;
 
     @Override
     public int hashCode() {
-        if (StringUtils.isEmpty(defineCode)) {
+        if (StringUtils.isEmpty(b)) {
             return "".hashCode();
         }
-        return defineCode.hashCode();
+        return b.hashCode();
     }
 
     @Override
     public boolean equals(Object var1) {
-        if (!(var1 instanceof SummaryCodeDTO)) {
+        if (!(var1 instanceof A)) {
             return false;
         }
-        SummaryCodeDTO dto = (SummaryCodeDTO) var1;
+        A dto = (A) var1;
         if (this == dto) {
             return true;
         }
-        if (dto.defineCode == null) {
+        if (dto.b == null) {
             return Boolean.FALSE;
         }
-        return dto.defineCode.equals(this.defineCode);
+        return dto.b.equals(this.b);
     }
 
-    public String getAsacNo() {
-        return asacNo;
+    public String getA() {
+        return a;
     }
 
-    public void setAsacNo(String asacNo) {
-        this.asacNo = asacNo;
+    public void setA(String a) {
+        this.a = a;
     }
 
-    public String getDefineCode() {
-        return defineCode;
+    public String getB() {
+        return b;
     }
 
-    public void setDefineCode(String defineCode) {
-        this.defineCode = defineCode;
+    public void setB(String b) {
+        this.b = b;
     }
 
-    public String getSummary() {
-        return summary;
+    public String getC() {
+        return c;
     }
 
-    public void setSummary(String summary) {
-        this.summary = summary;
+    public void setC(String c) {
+        this.c = c;
     }
 }

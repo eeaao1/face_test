@@ -19,17 +19,12 @@ public class EnumF {
     public void test() throws Exception {
         Class<EnumT> clz = EnumT.class;
         Object[] objects = clz.getEnumConstants();
-        Method getCode = clz.getMethod("getCode");
-        Method getMessage = clz.getMethod("getDesc");
+        Method c = clz.getMethod("getCode");
+        Method m = clz.getMethod("getDesc");
         List<Map<String, String>> list = new ArrayList<>();
-        //        Map<String, String> map = null;
         StringBuilder sb = new StringBuilder();
         for (Object obj : objects) {
-            //            map = new HashMap<>();
-            //            map.put(KEY_CODE, (String) getCode.invoke(obj));
-            //            map.put(KEY_DESC, (String) getMessage.invoke(obj));
-            //            list.add(map);
-            sb.append((String) getCode.invoke(obj) + "=" + (String) getMessage.invoke(obj) + "\n");
+            sb.append((String) c.invoke(obj) + "=" + (String) m.invoke(obj) + "\n");
         }
     }
 }
