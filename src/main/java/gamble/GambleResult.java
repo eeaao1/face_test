@@ -1,4 +1,4 @@
-package Gamble;
+package gamble;
 
 import java.math.BigDecimal;
 import java.net.URL;

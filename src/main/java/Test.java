@@ -1,4 +1,4 @@
-import ObjectEqules.Person;
+import java.math.BigDecimal;
 
 /*********************************************************
  * 文件名称：Test
@@ -11,8 +11,28 @@ import ObjectEqules.Person;
  *********************************************************/
 public class Test {
     public static void main(String[] args) {
-        Person p = new Person();
-        Person p1 = null;
-        System.out.println("".hashCode());
+//        Person p = new Person();
+//        Person p1 = null;
+//        System.out.println("".hashCode());
+//        BigDecimal amt = new BigDecimal("0.01");
+//        DecimalFormat df = new DecimalFormat("###,##0.00");
+//        String format = df.format(amt);
+//        System.out.println(format);
+//
+//        NumberFormat nf = NumberFormat.getPercentInstance();
+//        nf.setMinimumFractionDigits(2);
+//        System.out.println(nf.format(amt));
+        System.out.println("yyyyMMddHHmmss".substring(0, 8));
+        System.out.println("yyyyMMddHHmmss".substring(8));
+
+//        try {
+//            String s = "-999999999999";
+//            BigDecimal urp = new BigDecimal(s);
+//            if (BigDecimal.ZERO.compareTo(urp) > -1 || s.contains(".")) {
+//                System.out.println("error");
+//            }
+//        } catch (Exception e) {
+//            System.out.println("error");
+//        }
     }
 }

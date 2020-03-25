@@ -1,44 +1,28 @@
 {
-  "headUserNo": "838d19d901d6d4d2e050a8c0bb247b4f",
-  "headTrDate": "20200106",
-  "headReqDate": "20200106",
-  "headReqTime": "105959",
-  "headReqSerialNo": "tjGWnk3NheXSHWJ6XGYk8Q",
-  "headOrigDate": "20200106",
-  "headOrigTime": "105959",
-  "headOrigSerialNo": "tjGWnk3NheXSHWJ6XGYk8Q",
+  "headTenantId": "000",
+  "headChannel": "11",
+  "headOrgNo": "9999",
+  "headCustNo": "0001000kongliHA",
+  "headUserNo": "7070106898a14d3e904acc9dc841ec40",
+  "headReqDate": "20200324",
+  "headReqTime": "154526",
+  "headReqSerialNo": "YYnZeFmeYeXfcTfdGrkdT5",
+  "headOrigDate": "20200324",
+  "headOrigTime": "154526",
+  "headOrigSerialNo": "YYnZeFmeYeXfcTfdGrkdT5",
   "language": "1",
-  "custNo": "0001000kongliHA",
-  "acctNo": "MBOOKCLEAR001",
-  "asacNo": "00000001",
-  "defineCode": [
-    "c"
-  ],
-  "summary": "",
-  "dtos": [
-    {
-      "asacNo": "00000001",
-      "defineCode": "c",
-      "summary": ""
-    }
-  ],
-  "items": [
-    {
-      "value": "c"
-    }
-  ],
-  "custName": "重庆银行",
-  "asacName": "我的账簿啊",
-  "setFlag": "1",
-  "currencyDesc": "人民币",
-  "acctNo_in": "MBOOKCLEAR001",
-  "acctName": "恒生电子",
+  "userId": "fe8e5d09922a443096fdd58f2ca2a352",
+  "acctNo": "G012",
   "currency": "01",
-  "asacNo_in": "00000001",
-  "mirrorContext": "{\"data\":{\"custNo\":\"0001000kongliHA\",\"acctNo\":\"MBOOKCLEAR001\",\"asacNo\":\"00000001\",\"defineCode\":[\"c\"],\"summary\":\"\",\"dtos\":[{\"asacNo\":\"00000001\",\"defineCode\":\"c\",\"summary\":\"\"}],\"items\":[{\"value\":\"c\"}],\"custName\":\"重庆银行\",\"asacName\":\"我的账簿啊\",\"setFlag\":\"1\",\"currencyDesc\":\"人民币\",\"acctNo_in\":\"MBOOKCLEAR001\",\"acctName\":\"恒生电子\",\"currency\":\"01\",\"asacNo_in\":\"00000001\",\"mirrorContext\":\"\",\"asacNos\":[\"00000001\"]},\"editType\":\"add\",\"modalPath\":\"productManage/views/book/bookDiyCodeQuery_info\",\"modalWidth\":800,\"modalHeight\":410}",
   "asacNos": [
-    "00000001"
+    "00000000",
+    "00000002",
+    "00002001",
+    "00003001",
+    "99999999"
   ],
-  "headMenuCode": "02010060000001",
-  "headTrCode": "03040106C0506"
+  "authFlag": "11111111111111111111111111111111",
+  "mirrorContext": "{\"data\":{\"userId\":\"fe8e5d09922a443096fdd58f2ca2a352\",\"acctNo\":\"G012\",\"currency\":\"01\",\"authFlag\":\"11111111111111111111111111111111\",\"currentSelectList\":[{\"authId\":null,\"custNo\":null,\"userId\":null,\"userName\":null,\"acctNo\":\"00000000\",\"currency\":\"57f47024d290491b93d6d266c665fec6\",\"asacId\":\"57f47024d290491b93d6d266c665fec6\",\"asacNo\":\"00000000\",\"asacName\":\"总账簿\",\"authFlag\":null},{\"authId\":null,\"custNo\":null,\"userId\":null,\"userName\":null,\"acctNo\":\"00000002\",\"currency\":\"3c390defac0646ffbe7d0930ea72a6f9\",\"asacId\":\"3c390defac0646ffbe7d0930ea72a6f9\",\"asacNo\":\"00000002\",\"asacName\":\"123141\",\"authFlag\":null},{\"authId\":null,\"custNo\":null,\"userId\":null,\"userName\":null,\"acctNo\":\"00002001\",\"currency\":\"beef3b6b53d64446954914be30425451\",\"asacId\":\"beef3b6b53d64446954914be30425451\",\"asacNo\":\"00002001\",\"asacName\":\"1231411\",\"authFlag\":null},{\"authId\":null,\"custNo\":null,\"userId\":null,\"userName\":null,\"acctNo\":\"00003001\",\"currency\":\"9544e9f2185b4b8488c67cb2dd28e8e5\",\"asacId\":\"9544e9f2185b4b8488c67cb2dd28e8e5\",\"asacNo\":\"00003001\",\"asacName\":\"123141\",\"authFlag\":null},{\"authId\":null,\"custNo\":null,\"userId\":null,\"userName\":null,\"acctNo\":\"99999999\",\"currency\":\"1d12c555b1d14586bbff054deb2192d0\",\"asacId\":\"1d12c555b1d14586bbff054deb2192d0\",\"asacNo\":\"99999999\",\"asacName\":\"清分账簿\",\"authFlag\":null}]},\"editType\":\"view_allot\",\"modalPath\":\"productManage/views/book/bookAuthUser_info\",\"modalWidth\":800,\"modalHeight\":410}",
+  "headMenuCode": "12010080000001",
+  "headTrCode": "03040103C0200"
 }
