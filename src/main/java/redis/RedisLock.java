@@ -17,6 +17,14 @@ public class RedisLock {
     private Long waitingTime = 30000L;
     private Long outOffTime = 30000L;
 
+
+    public static void main(String[] args) {
+        Jedis jedis = RedisConection.cli_single("192.168.33.148", 6379);
+//        jedis.del("kongli");
+//        jedis.set("kongli", LOCK);
+        System.out.println(jedis.get("kongli"));
+    }
+
     public RedisLock() {
     }
 
@@ -27,11 +35,11 @@ public class RedisLock {
 
     public void tryLock(String key) {
         Jedis jedis = RedisConection.cli_single("192.168.33.148", 6379);
-        jedis.set(key, LOCK,);
+        jedis.set(key, LOCK);
     }
 
     public Boolean isLocked(String key) {
-
+        return true;
     }
 
 }
