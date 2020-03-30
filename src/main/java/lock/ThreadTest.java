@@ -15,7 +15,7 @@ import redis.clients.jedis.Jedis;
 public class ThreadTest implements Runnable {
 
 
-    private Integer i = 100;
+    private  Integer i = 100;
 
     /**
      * When an object implementing interface <code>Runnable</code> is used
@@ -78,7 +78,6 @@ public class ThreadTest implements Runnable {
         int ti = Integer.parseInt(st.substring(st.length() - 1));
         System.out.println("[before], [" + name + "],i= " + i);
         if (i == 100) {
-            System.out.println("waiting time = [" + (System.currentTimeMillis() - t) + "]ms, [" + name + "]");
             try {
                 Thread.sleep(ti);
             } catch (InterruptedException e) {

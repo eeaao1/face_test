@@ -21,8 +21,11 @@ public class RedisLock {
     public static void main(String[] args) {
         Jedis jedis = RedisConection.cli_single("192.168.33.148", 6379);
 //        jedis.del("kongli");
-//        jedis.set("kongli", LOCK);
-        System.out.println(jedis.get("kongli"));
+//        jedis.del("nojnl");
+        jedis.set("kongli", LOCK);
+        jedis.set("kongli", LOCK, "NX");
+        System.out.println("kongli:" + jedis.get("kongli"));
+//        System.out.println("nojnl:" + jedis.get("nojnl"));
     }
 
     public RedisLock() {
