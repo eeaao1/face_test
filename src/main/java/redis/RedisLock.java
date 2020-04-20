@@ -2,6 +2,8 @@ package redis;
 
 import redis.clients.jedis.Jedis;
 
+import java.math.BigDecimal;
+
 /*********************************************************
  * 文件名称：RedisLock
  * 系统名称：交易银行系统V1.0
@@ -23,9 +25,8 @@ public class RedisLock {
 //        jedis.del("kongli");
 //        jedis.del("nojnl");
         jedis.set("kongli", LOCK);
-        jedis.set("kongli", LOCK, "NX");
         System.out.println("kongli:" + jedis.get("kongli"));
-//        System.out.println("nojnl:" + jedis.get("nojnl"));
+        System.out.println("nojnl:" + jedis.get("nojnl"));
     }
 
     public RedisLock() {
