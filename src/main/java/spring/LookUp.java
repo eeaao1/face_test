@@ -1,6 +1,5 @@
 package spring;
 
-import filePath.Path;
 import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,8 @@
-import java.math.BigDecimal;
+import pojo.Person;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
 
 /*********************************************************
  * 文件名称：Test
@@ -22,9 +26,21 @@ public class Test {
 //        NumberFormat nf = NumberFormat.getPercentInstance();
 //        nf.setMinimumFractionDigits(2);
 //        System.out.println(nf.format(amt));
-        System.out.println("yyyyMMddHHmmss".substring(0, 8));
-        System.out.println("yyyyMMddHHmmss".substring(8));
-
+//        System.out.println("yyyyMMddHHmmss".substring(0, 8));
+//        System.out.println("yyyyMMddHHmmss".substring(8));
+        Person p = new Person();
+        Person pp = new Person();
+        p.setName("22");
+        p.setAge(1);
+        pp.setName("33");
+        pp.setAge(22);
+        Map<String, Person> ppp = new HashMap();
+        ppp.put("1", p);
+        ppp.put("2", pp);
+        Collection<Person> values = ppp.values();
+        for (Person v : values) {
+            System.out.println(v);
+        }
 //        try {
 //            String s = "-999999999999";
 //            BigDecimal urp = new BigDecimal(s);
