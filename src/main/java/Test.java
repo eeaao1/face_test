@@ -1,8 +1,8 @@
-import pojo.Person;
-
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 /*********************************************************
  * 文件名称：Test
@@ -28,19 +28,30 @@ public class Test {
 //        System.out.println(nf.format(amt));
 //        System.out.println("yyyyMMddHHmmss".substring(0, 8));
 //        System.out.println("yyyyMMddHHmmss".substring(8));
-        Person p = new Person();
-        Person pp = new Person();
-        p.setName("22");
-        p.setAge(1);
-        pp.setName("33");
-        pp.setAge(22);
-        Map<String, Person> ppp = new HashMap();
-        ppp.put("1", p);
-        ppp.put("2", pp);
-        Collection<Person> values = ppp.values();
-        for (Person v : values) {
-            System.out.println(v);
-        }
+//        Person p = new Person();
+//        Person pp = new Person();
+//        p.setName("22");
+//        p.setAge(1);
+//        pp.setName("33");
+//        pp.setAge(22);
+//        Map<String, Person> ppp = new HashMap();
+//        ppp.put("1", p);
+//        ppp.put("2", pp);
+//        Collection<Person> values = ppp.values();
+//        for (Person v : values) {
+//            System.out.println(v);
+//        }
+//        List<String> s = new ArrayList<>();
+//        List<String> s1 = new ArrayList<>();
+//        s.add("1");
+//        s1.add("1");
+//        s.add("2");
+//        s.add("3");
+//        s.add("4");
+//        s.add("5");
+//        System.out.println(s.removeAll(s1));
+//        System.out.println(s1);
+//        System.out.println(s);
 //        try {
 //            String s = "-999999999999";
 //            BigDecimal urp = new BigDecimal(s);
@@ -50,5 +61,10 @@ public class Test {
 //        } catch (Exception e) {
 //            System.out.println("error");
 //        }
+        try{
+        FileOutputStream stream = new FileOutputStream(new File("C:\\Users\\kongli26489\\d\\ff.e"));
+    } catch (FileNotFoundException e) {
+            System.out.println("11");
+    }
     }
 }
