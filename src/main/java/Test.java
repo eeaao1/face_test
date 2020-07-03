@@ -1,8 +1,13 @@
+import cron.G00217;
+import org.springframework.util.CollectionUtils;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /*********************************************************
  * 文件名称：Test
@@ -61,10 +66,9 @@ public class Test {
 //        } catch (Exception e) {
 //            System.out.println("error");
 //        }
-        try{
-        FileOutputStream stream = new FileOutputStream(new File("C:\\Users\\kongli26489\\d\\ff.e"));
-    } catch (FileNotFoundException e) {
-            System.out.println("11");
+        BigDecimal a = new BigDecimal("9994");
+        BigDecimal b = new BigDecimal("10000");
     }
-    }
+
+
 }
