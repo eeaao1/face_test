@@ -19,24 +19,12 @@ public class Test {
             jedis.auth("cache@fsp");
             System.out.println("args[0]:" + args[0]);
             String[] split = args[0].split(",");
-            if (split[0].equals("1")) {
-                //1-asset
-                jedis.set("asset", "1");
-            }else {
-                jedis.del("asset");
-            }
-            if (split[1].equals("1")) {
-                //2-bank
-                jedis.set("bank", "1");
-            }else {
-                jedis.del("bank");
-            }
-            if (split[2].equals("1")) {
-                //3-verify
-                jedis.set("verify", "1");
-            } else {
-                jedis.del("verify");
-            }
+            //1-asset
+            jedis.set("asset", split[0]);
+            //2-bank
+            jedis.set("bank", split[1]);
+            //3-verify
+            jedis.set("verify", split[2]);
             String asset = jedis.get("asset");
             String bank = jedis.get("bank");
             String verify = jedis.get("verify");
