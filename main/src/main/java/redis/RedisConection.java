@@ -15,7 +15,7 @@ import redis.clients.jedis.JedisPoolConfig;
  *********************************************************/
 public class RedisConection {
     public static void main(String[] args) {
-        Jedis jedis = cli_single("192.168.33.148", 6379);
+        Jedis jedis = cli_single("10.20.47.206", 6379);
         jedis.set("key", "first Java connect!");
         String value = jedis.get("key");
         System.out.println(value);

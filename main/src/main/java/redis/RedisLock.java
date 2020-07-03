@@ -15,7 +15,7 @@ import java.math.BigDecimal;
  *********************************************************/
 public class RedisLock {
 
-    private final static String LOCK = "lock";
+    private final static String LOCK = "src/main/java/lock";
     private Long waitingTime = 30000L;
     private Long outOffTime = 30000L;
 
