@@ -1,77 +1,69 @@
 {
-  "dtos": [
-    {
-      "currency": "01",
-      "payAcctNo": "UpDown052902",
-      "payAcctName": "恒生电子",
-      "payAcctKind": "2",
-      "rcvAcctKind": "2",
-      "payAsacNo": "00000000",
-      "payAsacName": "总账簿",
-      "rcvAcctNo": "UpDown052901",
-      "rcvAcctName": "恒生电子",
-      "rcvAsacNo": "00000000",
-      "rcvAsacName": "总账簿",
-      "rcvBankNo": "90000",
-      "amt": "1.00",
-      "feeAmt": "0",
-      "summary": "1"
-    }
+  "headUserNo": "207dff3d9f674a5ab8ac82d7964b58d4",
+  "headTrDate": "20200715",
+  "headReqDate": "20200715",
+  "headReqTime": "123110",
+  "headReqSerialNo": "ecDPNAZpbinriGYQDwkt5J",
+  "headOrigDate": "20200715",
+  "headOrigTime": "123110",
+  "headOrigSerialNo": "ecDPNAZpbinriGYQDwkt5J",
+  "language": "1",
+  "agreeValidDate": [
+    "2020-09-21T00:00:00.000Z",
+    "2199-12-31T00:00:00.000Z"
   ],
-  "headOrgNo": "9999",
-  "headCustNo": "000100KLGROUP02",
-  "headUserNo": "766577c461e04efb86813b3ff0c874cf",
-  "headMenuCode": "多借多贷
-  ","
-  headTrTime
-  ":"
-  193636
-  ","
-  headReqDate
-  ":"
-  20200630
-  ","
-  headReqTime
-  ":"
-  195244
-  ","
-  headReqSerialNo
-  ":"
-  5s3s5TaDPfk76aY5HSfw6j
-  ","
-  headOrigDate
-  ":"
-  20200630
-  ","
-  headOrigTime
-  ":"
-  195244
-  ","
-  headOrigSerialNo
-  ":"
-  5s3s5TaDPfk76aY5HSfw6j
-  ","
-  language
-  ":"
-  zh_CN
-  ","
-  headTenantId
-  ":"
-  000
-  ","
-  headChannel
-  ":"
-  11
-  ","
-  headTrCode
-  ":"
-  04010104B0086
-  ","
-  headTrDate
-  ":"
-  20201221
-  ","
-  headSerialNo
-  ":"
-  000202012210000090007
-  "}
+  "startDate": "2020-09-21",
+  "endDate": "2199-12-31",
+  "linkPayType": "0",
+  "payMode": "3",
+  "exceedLimit": null,
+  "uppAcctNo": "gatherPay001",
+  "uppAcctName": "恒生电子",
+  "uppCurrency": "01",
+  "loanType": "0",
+  "subProdCode": "11030300100300000001",
+  "acctNo": "CQTEST001",
+  "currency": "01",
+  "acctName": "恒生电子",
+  "acctLevel": "2",
+  "custName": "江苏傣辜合资公司",
+  "linkPayFlag": "0",
+  "custNo": "000100KLGROUP02",
+  "rateId": "8e6dbca3e8684e9493e2465cfedc1012",
+  "lackAssign": "0",
+  "pileType": "00",
+  "pilePeriod": "",
+  "assignFlag": "",
+  "vatRate": "0",
+  "stampTaxRate": "0",
+  "inTaxRate": "0",
+  "upTime": "",
+  "upType": "0",
+  "upPeriodType": "",
+  "upPeriodValue": "",
+  "upTriggerAmt": "",
+  "upKeepAmt": "",
+  "upMaxLimitAmt": "",
+  "upRule": "",
+  "upRuleParam": "",
+  "uCycleDay": "",
+  "uCycleInterval": "",
+  "uCycleWeek": "",
+  "uCycleMonth": "",
+  "ovdFlag": "0",
+  "acctPriority": "1",
+  "downType": "0",
+  "downTime": "",
+  "downPeriodType": "",
+  "downPeriodValue": "",
+  "downRule": "",
+  "downRuleParam": "",
+  "dCycleDay": "",
+  "dCycleInterval": "",
+  "dCycleWeek": "",
+  "dCycleMonth": "",
+  "dto": null,
+  "mirrorContext": "{\"data\":{\"agreeValidDate\":[\"2020-09-21T00:00:00.000Z\",\"2199-12-31T00:00:00.000Z\"],\"startDate\":\"2020-09-21\",\"endDate\":\"2199-12-31\",\"linkPayType\":\"0\",\"payMode\":\"3\",\"exceedLimit\":null,\"uppAcctNo\":\"gatherPay001\",\"uppAcctName\":\"恒生电子\",\"uppCurrency\":\"01\",\"loanType\":\"0\",\"subProdCode\":\"11030300100300000001\",\"acctNo\":\"CQTEST001\",\"currency\":\"01\",\"acctName\":\"恒生电子\",\"acctLevel\":\"2\",\"custName\":\"江苏傣辜合资公司\",\"linkPayFlag\":\"0\",\"custNo\":\"000100KLGROUP02\",\"rateId\":\"8e6dbca3e8684e9493e2465cfedc1012\",\"lackAssign\":\"0\",\"pileType\":\"00\",\"pilePeriod\":\"\",\"assignFlag\":\"\",\"vatRate\":\"0\",\"stampTaxRate\":\"0\",\"inTaxRate\":\"0\",\"upTime\":\"\",\"upType\":\"0\",\"upPeriodType\":\"\",\"upPeriodValue\":\"\",\"upTriggerAmt\":\"\",\"upKeepAmt\":\"\",\"upMaxLimitAmt\":\"\",\"upRule\":\"\",\"upRuleParam\":\"\",\"uCycleDay\":\"\",\"uCycleInterval\":\"\",\"uCycleWeek\":\"\",\"uCycleMonth\":\"\",\"ovdFlag\":\"0\",\"acctPriority\":\"1\",\"downType\":\"0\",\"downTime\":\"\",\"downPeriodType\":\"\",\"downPeriodValue\":\"\",\"downRule\":\"\",\"downRuleParam\":\"\",\"dCycleDay\":\"\",\"dCycleInterval\":\"\",\"dCycleWeek\":\"\",\"dCycleMonth\":\"\",\"dto\":null,\"mirrorContext\":\"\"},\"editType\":\"modify\",\"modalPath\":\"productManage/views/fund/fundMemberAcct_info\",\"modalWidth\":800,\"modalHeight\":460}",
+  "headMenuCode": "02020020000004",
+  "headTrCode": "03040202C1004"
+}
