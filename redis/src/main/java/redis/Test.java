@@ -15,11 +15,11 @@ public class Test {
 
     public static void main(String[] args) {
         try {
-            Jedis jedis = new Jedis("10.20.47.206", 6379);
+            Jedis jedis = new Jedis("10.20.25.197", 6379);
             jedis.auth("cache@fsp");
             System.out.println("args[0]:" + args[0]);
             String[] split = args[0].split(",");
-            //1-asset
+            //1 - asset
             jedis.set("asset", split[0]);
             //1-assetRollback
             jedis.set("assetRollback", split[1]);
