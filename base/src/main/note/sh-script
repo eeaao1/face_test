@@ -26,3 +26,13 @@ $ jstack –l 23561
 netstat -nap | grep 1095       进程对应端口
 netstat -tunlp | grep 8080     端口对应进程
 ------------------------------------------------------------------------------------------------------------------------------------------
+举例来说，macOS 上的 Java 10 共有近千个配置参数：
+
+$ java -XX:+PrintFlagsFinal -XX:+UnlockDiagnosticVMOptions -version | wc -l
+java version "10" 2018-03-20
+Java(TM) SE Runtime Environment 18.3 (build 10+46)
+Java HotSpot(TM) 64-Bit Server VM 18.3 (build 10+46, mixed mode)
+     812
+
+
+     Java 虚拟机将运行时内存区域划分为五个部分，分别为方法区、堆、PC 寄存器、Java 方法栈和本地方法栈。
