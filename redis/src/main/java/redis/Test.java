@@ -15,24 +15,44 @@ public class Test {
 
     public static void main(String[] args) {
         try {
-            Jedis jedis = new Jedis("10.20.47.206", 6379);
+            Jedis jedis = new Jedis("10.20.25.197", 6379);
             jedis.auth("cache@fsp");
-//            System.out.println("args[0]:" + args[0]);
-//            String[] split = args[0].split(",");
-//            //1-asset
-//            jedis.set("asset", split[0]);
-//            //2-bank
-//            jedis.set("bank", split[1]);
-//            //3-verify
-//            jedis.set("verify", split[2]);
+            System.out.println("args[0]:" + args[0]);
+            String[] split = args[0].split(",");
+            //1 - asset
+            jedis.set("asset", split[0]);
+            //1-assetRollback
+            jedis.set("assetRollback", split[1]);
+            //2-bank
+            jedis.set("bank", split[2]);
+            //3-verify
+            jedis.set("verify", split[3]);
+            if (split.length == 8) {
+                //1-payOutAsset
+                jedis.set("payOutAsset", split[4]);
+                //1-payOutAssetRollback
+                jedis.set("payOutAssetRollback", split[5]);
+                //2-payOutBank
+                jedis.set("payOutBank", split[6]);
+                //3-payOutVerify
+                jedis.set("payOutVerify", split[7]);
+            }
             String asset = jedis.get("asset");
             String assetRollback = jedis.get("assetRollback");
             String bank = jedis.get("bank");
             String verify = jedis.get("verify");
+            String payOutAsset = jedis.get("payOutAsset");
+            String payOutAssetRollback = jedis.get("payOutAssetRollback");
+            String payOutBank = jedis.get("payOutBank");
+            String payOutVerify = jedis.get("payOutVerify");
             System.out.println("asset:" + asset);
             System.out.println("assetRollback:" + assetRollback);
             System.out.println("bank:" + bank);
             System.out.println("verify:" + verify);
+            System.out.println("payOutAsset:" + payOutAsset);
+            System.out.println("payOutAssetRollback:" + payOutAssetRollback);
+            System.out.println("payOutBank:" + payOutBank);
+            System.out.println("payOutVerify:" + payOutVerify);
         } catch (Exception e) {
             e.printStackTrace();
         }

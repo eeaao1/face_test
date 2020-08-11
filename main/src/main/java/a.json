@@ -1,77 +1,26 @@
 {
-  "dtos": [
-    {
-      "currency": "01",
-      "payAcctNo": "UpDown052902",
-      "payAcctName": "恒生电子",
-      "payAcctKind": "2",
-      "rcvAcctKind": "2",
-      "payAsacNo": "00000000",
-      "payAsacName": "总账簿",
-      "rcvAcctNo": "UpDown052901",
-      "rcvAcctName": "恒生电子",
-      "rcvAsacNo": "00000000",
-      "rcvAsacName": "总账簿",
-      "rcvBankNo": "90000",
-      "amt": "1.00",
-      "feeAmt": "0",
-      "summary": "1"
-    }
-  ],
+  "headTenantId": "000",
+  "headChannel": "11",
   "headOrgNo": "9999",
   "headCustNo": "000100KLGROUP02",
   "headUserNo": "766577c461e04efb86813b3ff0c874cf",
-  "headMenuCode": "多借多贷
-  ","
-  headTrTime
-  ":"
-  193636
-  ","
-  headReqDate
-  ":"
-  20200630
-  ","
-  headReqTime
-  ":"
-  195244
-  ","
-  headReqSerialNo
-  ":"
-  5s3s5TaDPfk76aY5HSfw6j
-  ","
-  headOrigDate
-  ":"
-  20200630
-  ","
-  headOrigTime
-  ":"
-  195244
-  ","
-  headOrigSerialNo
-  ":"
-  5s3s5TaDPfk76aY5HSfw6j
-  ","
-  language
-  ":"
-  zh_CN
-  ","
-  headTenantId
-  ":"
-  000
-  ","
-  headChannel
-  ":"
-  11
-  ","
-  headTrCode
-  ":"
-  04010104B0086
-  ","
-  headTrDate
-  ":"
-  20201221
-  ","
-  headSerialNo
-  ":"
-  000202012210000090007
-  "}
+  "headReqDate": "20200729",
+  "headReqTime": "141302",
+  "headReqSerialNo": "ASza664cMKdK2NXQcMZMPZ",
+  "headOrigDate": "20200729",
+  "headOrigTime": "141302",
+  "headOrigSerialNo": "ASza664cMKdK2NXQcMZMPZ",
+  "language": "1",
+  "assignNo": "dd7c9b9a56534ce39a77d0b5a482fd722020061220200612",
+  "payAcctNo": "GATHERbatch20200617002",
+  "currency": "01",
+  "payAcctName": "恒生电子",
+  "rcvAcctNo": "GATHERbatch20200617003",
+  "rcvAcctName": "恒生电子",
+  "amt": "27.78",
+  "summary": "利息支付",
+  "postscript": "",
+  "mirrorContext": "{\"data\":{\"assignNo\":\"dd7c9b9a56534ce39a77d0b5a482fd722020061220200612\",\"payAcctNo\":\"GATHERbatch20200617002\",\"currency\":\"01\",\"payAcctName\":\"恒生电子\",\"rcvAcctNo\":\"GATHERbatch20200617003\",\"rcvAcctName\":\"恒生电子\",\"amt\":\"27.78\",\"summary\":\"利息支付\",\"postscript\":\"\",\"currentSelectRow\":{\"assignStat\":\"2\",\"assignNo\":\"dd7c9b9a56534ce39a77d0b5a482fd722020061220200612\",\"assignDate\":\"20200620\",\"assignFlag\":\"1\",\"prodCode\":\"11030300100300000001\",\"prodExaNo\":\"252b3f47f879473eb3bed03bf5844ebb\",\"chargeNo\":\"dd7c9b9a56534ce39a77d0b5a482fd72\",\"acctNo\":\"GATHERbatch20200617002\",\"currency\":\"01\",\"acctName\":\"恒生电子\",\"oppAcctNo\":\"GATHERbatch20200617003\",\"oppCurrency\":\"01\",\"oppAcctName\":\"恒生电子\",\"startDate\":\"20200612\",\"endDate\":\"20200612\",\"drPile\":\"20000\",\"drAccrual\":\"27.78\",\"crPile\":\"0\",\"crAccrual\":\"0\",\"miPile\":\"0\",\"miAccrual\":\"0\",\"rcvAccrual\":\"0\",\"payAccrual\":\"27.78\",\"fisAccrual\":\"0\",\"crdrFlag\":\"D\",\"interest\":27.78,\"_index\":0,\"_rowKey\":1}},\"modalPath\":\"productManage/views/fund/fundCollectionInterest_info\",\"modalWidth\":800,\"modalHeight\":410}",
+  "headMenuCode": "12020060000001",
+  "headTrCode": "03040204B3006"
+}
