@@ -17,18 +17,20 @@ public class Test {
         try {
             Jedis jedis = new Jedis("10.20.47.206", 6379);
             jedis.auth("cache@fsp");
-            System.out.println("args[0]:" + args[0]);
-            String[] split = args[0].split(",");
-            //1-asset
-            jedis.set("asset", split[0]);
-            //2-bank
-            jedis.set("bank", split[1]);
-            //3-verify
-            jedis.set("verify", split[2]);
+//            System.out.println("args[0]:" + args[0]);
+//            String[] split = args[0].split(",");
+//            //1-asset
+//            jedis.set("asset", split[0]);
+//            //2-bank
+//            jedis.set("bank", split[1]);
+//            //3-verify
+//            jedis.set("verify", split[2]);
             String asset = jedis.get("asset");
+            String assetRollback = jedis.get("assetRollback");
             String bank = jedis.get("bank");
             String verify = jedis.get("verify");
             System.out.println("asset:" + asset);
+            System.out.println("assetRollback:" + assetRollback);
             System.out.println("bank:" + bank);
             System.out.println("verify:" + verify);
         } catch (Exception e) {
