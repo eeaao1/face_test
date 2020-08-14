@@ -1,12 +1,4 @@
-import org.springframework.util.CollectionUtils;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
 
 /*********************************************************
  * 文件名称：Test
@@ -67,6 +59,8 @@ public class Test {
 //        }
         BigDecimal a = new BigDecimal("9994");
         BigDecimal b = new BigDecimal("10000");
+        String s = "123456789";
+        System.out.println(s.substring(0, s.length() - 4));
     }
 
 
