@@ -17,14 +17,14 @@ import java.util.List;
 public class Test {
 
     public static void main(String[] args) {
-        Gener<? extends Father> objectGener = new Gener<>();
-        List<?> l = new ArrayList<>();
-        l.add("1");
-        Father father = new Father();
-        father.setWife("1234");
-        objectGener.setS(father);
-        Object ss = ss(objectGener);
-        System.out.println(ss);
+//        Gener<? extends Father> objectGener = new Gener<>();
+//        List<?> l = new ArrayList<>();
+//        l.add("1");
+//        Father father = new Father();
+//        father.setWife("1234");
+//        objectGener.setS(father);
+//        Object ss = ss(objectGener);
+//        System.out.println(ss);
     }
 
     public static <T> T ss(Gener<T> g) {
