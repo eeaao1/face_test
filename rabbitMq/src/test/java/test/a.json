@@ -1,0 +1,24 @@
+{
+  "headUserNo": "1f9333de9e9f4eccae9a7505ff7f7109",
+  "headTrDate": "20210513",
+  "headSerialNo": "45mzjKKAcA7zx4fRkXhNFT",
+  "headReqDate": "20210513",
+  "headReqTime": "171338",
+  "headReqSerialNo": "45mzjKKAcA7zx4fRkXhNFT",
+  "headOrigDate": "20210513",
+  "headOrigTime": "171338",
+  "headOrigSerialNo": "45mzjKKAcA7zx4fRkXhNFT",
+  "language": "1",
+  "mstCustNo": "000100000kongli",
+  "mstCustName": "孔力客户名称1111",
+  "trDate": [
+    "2021-08-07T00:00:00.000Z",
+    "2021-09-07T00:00:00.000Z"
+  ],
+  "startDate": "20210807",
+  "endDate": "20210907",
+  "start": 1,
+  "size": 10,
+  "headMenuCode": "02090060000099",
+  "headTrCode": "03040503A0313"
+}

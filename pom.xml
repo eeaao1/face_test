@@ -12,10 +12,12 @@
         <!--<module>dubbo.customer</module>-->
         <!--<module>dubbo.provider</module>-->
         <!--<module>common</module>-->
-        <module>base</module>
-        <module>peak</module>
-        <module>redis</module>
-        <module>main</module>
+<!--        <module>base</module>-->
+<!--        <module>peak</module>-->
+<!--        <module>redis</module>-->
+<!--        <module>main</module>-->
+        <module>rabbitMq</module>
+        <module>rabbitMq2</module>
     </modules>
 
     <properties>
@@ -52,7 +54,11 @@
                 <artifactId>spring-boot-starter-data-redis</artifactId>
                 <version>2.2.1.RELEASE</version>
             </dependency>
-
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-amqp</artifactId>
+                <version>2.3.9.RELEASE</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter</artifactId>
@@ -99,6 +105,12 @@
                 <groupId>com.101tec</groupId>
                 <artifactId>zkclient</artifactId>
                 <version>${zkclient.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.rabbitmq</groupId>
+                <artifactId>amqp-client</artifactId>
+                <version>3.6.5</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

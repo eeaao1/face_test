@@ -9,18 +9,22 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>base</artifactId>
+    <artifactId>rabbitMq</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>
-            <!--            <version>2.3.9.RELEASE</version>-->
-            <!--            <classifier>sources</classifier>-->
-            <!--            <type>java-source</type>-->
+<!--            <version>2.3.9.RELEASE</version>-->
+<!--            <classifier>sources</classifier>-->
+<!--            <type>java-source</type>-->
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
     </dependencies>
 

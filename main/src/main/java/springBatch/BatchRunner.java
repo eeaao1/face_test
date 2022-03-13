@@ -10,4 +10,13 @@ package springBatch;
  * 修改记录：程序版本  修改日期  修改人员  修改单号  修改说明
  *********************************************************/
 public class BatchRunner {
+    public static void main(String[] args) {
+        char c = 'D';
+        byte b = (byte) c;
+        // System.out.println(b);
+        // System.out.println(new String("D").getBytes().length);
+        // System.out.println(Integer.parseInt("12345678"));
+        System.out.println(String.format("%-6s","1234"));
+
+    }
 }
